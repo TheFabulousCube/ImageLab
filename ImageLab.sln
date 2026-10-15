@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A7F027F8-5E62-4F8E-A0B1-23D5AC4C33BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLab.Core", "src\ImageLab.Core\ImageLab.Core.csproj", "{8E339363-9F66-4C6D-99B2-46CEFC7440B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLab.Providers.OpenAI", "src\ImageLab.Providers.OpenAI\ImageLab.Providers.OpenAI.csproj", "{BC074AE3-A38C-48EE-8A7D-BC6C0AAE68FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLab.Providers.Fake", "src\ImageLab.Providers.Fake\ImageLab.Providers.Fake.csproj", "{08D6B82C-326E-4E4E-8970-6E9A61914794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLab.Api", "src\ImageLab.Api\ImageLab.Api.csproj", "{F0CB87C0-C2CF-485D-B6E5-EF94B9D2B282}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A87C5124-923B-4ED0-A662-FBF2DD288F80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLab.Core.Tests", "tests\ImageLab.Core.Tests\ImageLab.Core.Tests.csproj", "{4C1407CF-B6A2-4EC6-A23F-60BC178E66E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E339363-9F66-4C6D-99B2-46CEFC7440B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E339363-9F66-4C6D-99B2-46CEFC7440B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E339363-9F66-4C6D-99B2-46CEFC7440B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E339363-9F66-4C6D-99B2-46CEFC7440B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC074AE3-A38C-48EE-8A7D-BC6C0AAE68FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC074AE3-A38C-48EE-8A7D-BC6C0AAE68FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC074AE3-A38C-48EE-8A7D-BC6C0AAE68FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC074AE3-A38C-48EE-8A7D-BC6C0AAE68FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D6B82C-326E-4E4E-8970-6E9A61914794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D6B82C-326E-4E4E-8970-6E9A61914794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D6B82C-326E-4E4E-8970-6E9A61914794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D6B82C-326E-4E4E-8970-6E9A61914794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CB87C0-C2CF-485D-B6E5-EF94B9D2B282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CB87C0-C2CF-485D-B6E5-EF94B9D2B282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CB87C0-C2CF-485D-B6E5-EF94B9D2B282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CB87C0-C2CF-485D-B6E5-EF94B9D2B282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1407CF-B6A2-4EC6-A23F-60BC178E66E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1407CF-B6A2-4EC6-A23F-60BC178E66E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1407CF-B6A2-4EC6-A23F-60BC178E66E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1407CF-B6A2-4EC6-A23F-60BC178E66E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E339363-9F66-4C6D-99B2-46CEFC7440B1} = {A7F027F8-5E62-4F8E-A0B1-23D5AC4C33BC}
+		{BC074AE3-A38C-48EE-8A7D-BC6C0AAE68FD} = {A7F027F8-5E62-4F8E-A0B1-23D5AC4C33BC}
+		{08D6B82C-326E-4E4E-8970-6E9A61914794} = {A7F027F8-5E62-4F8E-A0B1-23D5AC4C33BC}
+		{F0CB87C0-C2CF-485D-B6E5-EF94B9D2B282} = {A7F027F8-5E62-4F8E-A0B1-23D5AC4C33BC}
+		{4C1407CF-B6A2-4EC6-A23F-60BC178E66E1} = {A87C5124-923B-4ED0-A662-FBF2DD288F80}
+	EndGlobalSection
+EndGlobal

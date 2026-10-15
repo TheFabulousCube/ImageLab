@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <UserSecretsId>5f2efe97-eb58-499a-9c0b-52ccf7f1cebd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.19.1" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.19.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImageLab.Core\ImageLab.Core.csproj" />
+    <ProjectReference Include="..\ImageLab.Providers.Fake\ImageLab.Providers.Fake.csproj" />
+    <ProjectReference Include="..\ImageLab.Providers.OpenAI\ImageLab.Providers.OpenAI.csproj" />
+  </ItemGroup>
+
+</Project>
