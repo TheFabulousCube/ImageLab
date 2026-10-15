@@ -1,0 +1,1 @@
+{"name": "imagelab-scaffold", "description": "Scaffold or rebuild the ImageLab .NET 8 sample: an IImageGenerator pipeline with logging, telemetry, file saving, swappable providers (Fake, Azure OpenAI), and a minimal API. Use when asked to create, recreate, or extend ImageLab."}
